@@ -1,0 +1,19 @@
+{
+  "name": "e-folio",
+  "version": "1.0.0",
+  "description": "E-portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vedsaxena6987/E-Folio.git"
+  },
+  "author": "Vedant Saxena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vedsaxena6987/E-Folio/issues"
+  },
+  "homepage": "https://github.com/vedsaxena6987/E-Folio#readme"
+}
