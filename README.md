@@ -35,7 +35,7 @@ This is a responsive and interactive **personal developer portfolio website** cr
 
 ## 🖼️ Preview
 
-![Screenshot](https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif)
+![Screenshot](vedsaxena6987.github.io/E-Folio/)
 
 ---
 
