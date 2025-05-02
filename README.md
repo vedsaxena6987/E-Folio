@@ -9,7 +9,7 @@
 
 ## 🚀 Project Overview
 
-This is a responsive and interactive **personal developer portfolio website** created by **Vedant Saxena**. It showcases Vedant's skills, projects, resume, contact form, and social media links. The design uses a vibrant dark theme with animated elements and syntax-highlighted code snippets.
+This is a responsive and interactive **personal developer portfolio website** created by **Vedant Saxena**. It showcases My skills, projects, resume, contact form, and social media links. The design uses a vibrant dark theme with animated elements and syntax-highlighted code snippets.
 
 ---
 
@@ -44,7 +44,7 @@ This is a responsive and interactive **personal developer portfolio website** cr
 - **HTML5**
 - **CSS3**
 - **JavaScript (ES6+)**
-- **Node.js (if integrated with backend APIs)**
+
 
 ---
 
@@ -53,8 +53,8 @@ This is a responsive and interactive **personal developer portfolio website** cr
 1. Clone this repo:
 
 ```bash
-git clone https://github.com/vedsaxena6987/developer-portfolio.git
-cd developer-portfolio
+git clone https://github.com/vedsaxena6987/E-Folio.git
+cd E-Folio
 ```
 
 2. Open `index.html` in any modern browser to view the site locally:
