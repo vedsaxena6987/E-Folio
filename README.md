@@ -33,11 +33,7 @@ This is a responsive and interactive **personal developer portfolio website** cr
 
 ---
 
-## 🖼️ Preview
 
-![Website](vedsaxena6987.github.io/E-Folio/)
-
----
 
 ## 📦 Technologies Used
 
