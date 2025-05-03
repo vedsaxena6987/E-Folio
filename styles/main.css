@@ -71,12 +71,52 @@ body {
   background: #d946ef;
 }
 
-.ppt-download {
-  padding: 2rem;
-  text-align: center;
-  max-width: 700px;
-  margin: auto;
+.ppt-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 3rem auto;
+  flex-wrap: wrap; /* enables responsive stacking on small screens */
 }
+
+.ppt-box {
+  flex: 1;
+  min-width: 300px;
+  background-color: #111827;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.ppt-box h2 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.ppt-box p {
+  color: #cbd5e1;
+  margin-bottom: 1.5rem;
+}
+
+.btn.filled {
+  background-color: #ec4899;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn.filled:hover {
+  background-color: #db2777;
+}
+
+
 
 .ppt-download .btn {
   margin-top: 1rem;
