@@ -7,40 +7,95 @@
 
     <!-- Font and Styles -->
     <link rel="stylesheet" href="styles/main.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   </head>
 
   <body>
-    <header class="intro">
-      <h1>Hello,<br>This is <span class="name">VEDANT SAXENA</span>,<br>I'm a Professional <span class="highlight">Software Developer.</span></h1>
-      <p>I'm a passionate software developer with expertise in building modern web applications.</p>
-      <p>Let's connect and explore opportunities to work together!</p>
-      <p>Feel free to reach out to me through the contact form below or connect with me on social media.</p>
-
-      <div class="social-icons">
-        <a href="https://github.com/vedsaxena6987" target="_blank">
-          <img src="https://img.icons8.com/ios-filled/50/ffffff/github.png" alt="GitHub" />
-        </a>
-        <a href="https://linkedin.com/in/vedant-saxena-60012a238/" target="_blank">
-          <img src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png" alt="LinkedIn" />
-        </a>
-        <a href="http://instagram.com/__vedant__saxena__/" target="_blank">
-          <img src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new.png" alt="Instagram" />
-        </a>
-        <a href="https://orcid.org/my-orcid?orcid=0009-0002-0588-4020" target="_blank">
-          <img src="https://img.icons8.com/ios-filled/50/ffffff/circled-o.png" alt="ORCID" />
-        </a>
-        <a href="mailto:youremail@example.com">
-          <img src="https://img.icons8.com/ios-filled/50/ffffff/email.png" alt="Email" />
-        </a>
-        <a href="https://leetcode.com/u/6987vedsaxena/" target="_blank">
-          <img src="https://img.icons8.com/ios-filled/50/ffffff/code.png" alt="LeetCode" />
-        </a>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">Vedant<span class="highlight">.</span></div>
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#presentations" class="nav-link">Presentations</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
       </div>
-    </header>
+    </nav>
 
-    <section class="code-box">
-      <pre><code>const coder = {
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Hello, I'm <span class="name"> <br> Vedant Saxena</span></h1>
+            <h2>Aspiring <span class="highlight">Software Developer</span></h2>
+            <p>I'm passionate about building modern and scalable applications that solve real-world problems.</p>
+            <div class="hero-buttons">
+              <a href="#projects" class="btn filled">View My Work</a>
+              <a href="#contact" class="btn outline">Contact Me</a>
+            </div>
+            <div class="social-icons">
+              <a href="https://github.com/vedsaxena6987" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://linkedin.com/in/vedant-saxena-60012a238/" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="http://instagram.com/__vedant__saxena__/" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://orcid.org/my-orcid?orcid=0009-0002-0588-4020" target="_blank" aria-label="ORCID">
+                <i class="fas fa-circle"></i>
+              </a>
+              <a href="mailto:6987vedsaxena@gmail.com" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+              </a>
+              <a href="https://leetcode.com/u/6987vedsaxena/" target="_blank" aria-label="LeetCode">
+                <i class="fas fa-code"></i>
+              </a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="profile-img-container">
+              <img src="./assets/images/vedant.jpg" alt="Vedant Saxena" class="profile-img" id="profile-img">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-background">
+        <div class="shape shape1" data-shift-value="15"></div>
+        <div class="shape shape2" data-shift-value="10"></div>
+        <div class="shape shape3" data-shift-value="5"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <h2>About Me</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              👋 Hey there! I'm Vedant, a curious coder and AI/ML enthusiast passionate about creating practical and impactful software solutions. From building machine learning models for healthcare to developing AI-powered code security tools, digital personal assistants, network utilities, and data structures & algorithms (DSA) in C++ — I love experimenting with new technologies and turning ideas into reality.
+            </p>
+            <p>
+              I'm currently expanding my knowledge in AngularJS and always open to learning, collaboration, and open-source contributions. My approach combines technical expertise with a problem-solving mindset to create elegant and efficient solutions.
+            </p>
+            <div class="code-box">
+              <pre><code>const coder = {
   name: 'Vedant Saxena',
   skills: ['React', 'NextJS', 'Node.js', 'MongoDB', 'C++', 'Python'],
   hardWorker: true,
@@ -50,58 +105,330 @@
     return this.hardWorker && this.problemSolver && this.skills.length >= 3;
   }
 };</code></pre>
-    </section>
-
-    <section class="about">
-      <h2>Who I Am?</h2>
-      <p>
-        👋 Hey there! I'm Vedant Saxena, a curious coder and AI/ML enthusiast passionate about creating practical and impactful software solutions. From building machine learning models for healthcare to developing AI-powered code security tools, digital personal assistants, network utilities, and data structures & algorithms (DSA) in C++ — I love experimenting with new technologies and turning ideas into reality. 💻 Check out my repositories for projects on AI/ML, full-stack web development, and personal tools. Always open to learning, collaboration, and open-source contributions!
-
-🌱 I’m currently learning AngularJS
-
-👨‍💻 All of my projects are available at https://github.com/vedsaxena6987
-
-💬 Ask me about anything related to Web Dev.| DSA
-
-      </p>
-    
-      <section class="ppt-wrapper">
-        <div class="ppt-box">
-          <h2>Resume</h2>
-          <p>You can view or download my resume from here:</p>
-          <a href="assets/RESUME.pdf" target="_blank" class="btn filled">Download Resume</a>
+            </div>
+          </div>
         </div>
-        <div class="ppt-box">
-          <h2>Cover Letter</h2>
-          <p>You can view or download my Cover Letter from here:</p>
-          <a href="assets/COVER LETTER.pdf" target="_blank" class="btn filled">Download Cover Letter</a>
-        </div>
-        <div class="ppt-box">
-          <h2>Personal Profiling</h2>
-          <p>You can view or download my Personal Profiling sheet from here:</p>
-          <a href="assets/Personal Profiling.pdf" target="_blank" class="btn filled">Download Cover Letter</a>
-        </div>
-      </section>
-      
-      
-
-    <section id="contact" class="contact">
-      <h2>Contact With Me</h2>
-      <form>
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Your Email" required />
-        <textarea placeholder="Your Message" required></textarea>
-        <button type="submit"><i class="fas fa-paper-plane"></i> Send Message</button>
-      </form>
-      <div class="contact-info">
-        <p><i class="fas fa-envelope"></i> 6987vedsaxena@gmail.com</p>
-        <p><i class="fas fa-phone"></i> +91 6306145403</p>
-        <p><i class="fas fa-map-marker-alt"></i> India</p>
       </div>
     </section>
 
-    <footer>
-      <p>&copy; 2025 Vedant Saxena</p>
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2>My Skills</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="skills-content">
+          <div class="skill-category">
+            <h3>Frontend Development</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                <div class="skill-name">HTML5</div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                <div class="skill-name">CSS3</div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon"><i class="fab fa-js"></i></div>
+                <div class="skill-name">JavaScript</div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon"><i class="fab fa-react"></i></div>
+                <div class="skill-name">React</div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon"><i class="fab fa-angular"></i></div>
+                <div class="skill-name">Angular</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="skill-category">
+            <h3>Backend Development</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+                <div class="skill-name">Node.js</div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon"><i class="fas fa-database"></i></div>
+                <div class="skill-name">MongoDB</div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon"><i class="fas fa-server"></i></div>
+                <div class="skill-name">Express</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="skill-category">
+            <h3>Programming Languages</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-icon"><i class="fab fa-python"></i></div>
+                <div class="skill-name">Python</div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon"><i class="fas fa-code"></i></div>
+                <div class="skill-name">C++</div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon"><i class="fab fa-java"></i></div>
+                <div class="skill-name">Java</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2>My Projects</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="./assets/images/Project1.png" alt="Project 1">
+            </div>
+            <div class="project-details">
+              <h3>AI-Powered Code Security</h3>
+              <p>A tool that uses machine learning to detect vulnerabilities in code repositories.</p>
+              <div class="project-tags">
+                <span>Python</span>
+                <span>ML</span>
+                <span>Security</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/vedsaxena6987/Your-AI-Powered-Code-Security-Guardian--main" target="_blank" class="btn outline small">View Demo</a>
+                <a href="https://github.com/vedsaxena6987/Your-AI-Powered-Code-Security-Guardian--main" target="_blank"class="btn filled small">GitHub</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <div class="project-image">
+              <img src="./assets/images/Project1.png" alt="Project 2">
+            </div>
+            <div class="project-details">
+              <h3>Healthcare ML Model</h3>
+              <p>Machine learning model for predicting patient outcomes based on medical data.</p>
+              <div class="project-tags">
+                <span>Python</span>
+                <span>TensorFlow</span>
+                <span>Healthcare</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/vedsaxena6987/BREST_Cancer_prediction" target="_blank"class="btn outline small">View Demo</a>
+                <a href="https://github.com/vedsaxena6987/BREST_Cancer_prediction" target="_blank" class="btn filled small">GitHub</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <div class="project-image">
+              <img src="./assets/images/Project1.png" alt="Project 3">
+            </div>
+            <div class="project-details">
+              <h3>Digital Personal Assistant</h3>
+              <p>A personal assistant app that helps manage schedules and tasks efficiently.</p>
+              <div class="project-tags">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>MongoDB</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/vedsaxena6987/Chat-Application-using-java" target="_blank" class="btn outline small">View Demo</a>
+                <a href="https://github.com/vedsaxena6987/Chat-Application-using-java" target="_blank"class="btn filled small">GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Presentations Section -->
+    <section id="presentations" class="presentations">
+      <div class="container">
+        <div class="section-header">
+          <h2>My Presentations</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="presentations-grid">
+          <div class="presentation-card" data-ppt="assets/Personal_Profiling_Presentation.pptx">
+            <div class="presentation-icon">
+              <i class="fas fa-file-powerpoint"></i>
+            </div>
+            <div class="presentation-details">
+              <h3>Personal Profiling</h3>
+              <p>A presentation about my personal profiling and skills assessment.</p>
+              <div class="presentation-actions">
+                <button class="btn filled view-presentation">View Presentation</button>
+                <a href="assets/Personal_Profiling_Presentation.pptx" download class="btn outline">Download</a>
+              </div>
+            </div>
+          </div>
+         
+         <!--Google Slide-->
+          <div class="presentation-card" data-ppt="https://docs.google.com/presentation/d/e/2PACX-1vRoCsWLfWkDvOakR50PbkstCHLWzFv8vJZhgLgYNQxmPDtkGql0G-wKUCh6UpDcs8O55zKYmlOKdC2B/pubembed?start=false&loop=false&delayms=10000">
+            <div class="presentation-icon">
+              <i class="fas fa-file-powerpoint"></i>
+            </div>
+            <div class="presentation-details">
+              <h3>Project Showcase</h3>
+              <p>A showcase of my recent projects and their technical details.</p>
+              <div class="presentation-actions">
+                <button class="btn filled view-presentation">View Presentation</button>
+                <a href="#" class="btn outline">Download</a>
+              </div>
+            </div>
+          </div>
+        </div>
+         <!--Google Slide  end-->
+
+
+        <!-- Presentation Viewer Modal -->
+        <div id="presentation-modal" class="modal">
+          <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="presentation-viewer">
+              <iframe id="presentation-iframe" width="100%" height="500" frameborder="0" allowfullscreen="true"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Documents Section -->
+    <section class="documents">
+      <div class="container">
+        <div class="documents-wrapper">
+          <div class="document-card">
+            <div class="document-icon">
+              <i class="fas fa-file-alt"></i>
+            </div>
+            <div class="document-content">
+              <h3>Resume</h3>
+              <p>View or download my detailed resume</p>
+              <a href="assets/RESUME.pdf" target="_blank" class="btn filled">View Resume</a>
+            </div>
+          </div>
+          
+          <div class="document-card">
+            <div class="document-icon">
+              <i class="fas fa-file-contract"></i>
+            </div>
+            <div class="document-content">
+              <h3>Cover Letter</h3>
+              <p>View or download my cover letter</p>
+              <a href="assets/COVER LETTER.pdf" target="_blank" class="btn filled">View Cover Letter</a>
+            </div>
+          </div>
+          
+          <div class="document-card">
+            <div class="document-icon">
+              <i class="fas fa-user-circle"></i>
+            </div>
+            <div class="document-content">
+              <h3>Personal Profiling</h3>
+              <p>View or download my personal profiling document</p>
+              <a href="assets/Personal Profiling.pdf" target="_blank" class="btn filled">View Document</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2>Contact Me</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="contact-content">
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="form-group">
+                <input type="text" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" id="email" placeholder="Your Email" required>
+              </div>
+              <div class="form-group">
+                <input type="text" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group">
+                <textarea id="message" placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit" class="btn filled">Send Message</button>
+            </form>
+          </div>
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-text">
+                <h3>Email</h3>
+                <p><a href="mailto:6987vedsaxena@gmail.com">6987vedsaxena@gmail.com</a></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-text">
+                <h3>Phone</h3>
+                <p><a href="tel:+916306145403">+91 6306145403</a></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-text">
+                <h3>Location</h3>
+                <p>India</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h3>Vedant<span class="highlight">.</span></h3>
+            <p>Software Developer & AI Enthusiast</p>
+          </div>
+          <div class="footer-social">
+            <a href="https://github.com/vedsaxena6987" target="_blank" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/vedant-saxena-60012a238/" target="_blank" aria-label="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="http://instagram.com/__vedant__saxena__/" target="_blank" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="mailto:6987vedsaxena@gmail.com" aria-label="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Vedant Saxena. All rights reserved.</p>
+        </div>
+      </div>
     </footer>
 
     <script src="scripts/main.js"></script>

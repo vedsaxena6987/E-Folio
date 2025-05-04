@@ -1,19 +1,30 @@
 {
   "name": "e-folio",
   "version": "1.0.0",
-  "description": "E-portfolio",
-  "main": "index.js",
+  "description": "Vedant Saxena's Portfolio Website",
+  "main": "index.html",
   "scripts": {
+    "start": "serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vedsaxena6987/E-Folio.git"
   },
+  "keywords": [
+    "portfolio",
+    "website",
+    "frontend",
+    "vedant",
+    "saxena"
+  ],
   "author": "Vedant Saxena",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/vedsaxena6987/E-Folio/issues"
   },
-  "homepage": "https://github.com/vedsaxena6987/E-Folio#readme"
+  "homepage": "https://github.com/vedsaxena6987/E-Folio#readme",
+  "devDependencies": {
+    "serve": "^14.0.0"
+  }
 }

@@ -1,70 +1,94 @@
+# Vedant Saxena - Developer Portfolio
 
-# 🌐 Developer Portfolio Website
+A modern, responsive, and interactive portfolio website showcasing my skills, projects, and achievements.
 
-![HTML Logo](https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg)
-![CSS Logo](https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg)
-![Node.js Logo](https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg)
+## Features
 
----
+- **Modern Design**: Clean and professional UI with animations and interactive elements
+- **Responsive Layout**: Optimized for all screen sizes (mobile, tablet, desktop)
+- **Interactive Elements**: Hover effects, smooth scrolling, and dynamic content
+- **Project Showcase**: Display of featured projects with descriptions and links
+- **Skills Section**: Visual representation of technical skills
+- **Presentation Viewer**: In-browser PowerPoint presentation viewer
+- **Contact Form**: Easy way for visitors to get in touch
+- **Performance Optimized**: Fast loading and smooth interactions
 
-## 🚀 Project Overview
+## Tech Stack
 
-This is a responsive and interactive **personal developer portfolio website** created by **Vedant Saxena**. It showcases My skills, projects, resume, contact form, and social media links. The design uses a vibrant dark theme with animated elements and syntax-highlighted code snippets.
+- HTML5
+- CSS3 (Custom properties, Flexbox, Grid)
+- JavaScript (ES6+)
+- Font Awesome for icons
+- Google Fonts
+- Microsoft Office Online Viewer (for presentations)
 
----
+## Getting Started
 
-## 🧩 Key Features
+### Prerequisites
 
-- 🧑‍💻 **About Me Section** – Highlights personal background, interests, and current tech learning path.
-- 🧠 **Skills Code Box** – A creatively styled JSON-style code snippet showing skills and traits.
-- 📜 **Resume & Cover Letter Download** – Quick links to view/download documents in PDF format.
-- 🌐 **Social Icons** – GitHub, LinkedIn, Instagram, LeetCode, ORCID, and Email with hover effects.
-- 💬 **Contact Form** – Collects name, email, and message from visitors.
-- 💡 **Responsive Design** – Works smoothly across devices.
-- 🧠 **Dynamic Bio Fetch** – Uses GitHub API to fetch user bio and display it on the site.
+- A modern web browser
+- Basic knowledge of HTML, CSS, and JavaScript (for modifications)
 
----
+### Installation
 
-## 💾 Files Overview
+1. Clone the repository:
 
-- `index.html` – Main HTML structure for the portfolio.
-- `main.css` – Stylesheet for layout, animations, and theming.
-- `main.js` – JavaScript for dynamic content fetching (GitHub intro).
+   ```bash
+   git clone https://github.com/vedsaxena6987/E-Folio.git
+   ```
 
----
+2. Navigate to the project directory:
 
+   ```bash
+   cd E-Folio
+   ```
 
+3. Open the index.html file in your browser or use a local server:
+   ```bash
+   # If you have Node.js installed:
+   npx serve
+   ```
 
-## 📦 Technologies Used
+## Customization
 
-- **HTML5**
-- **CSS3**
-- **JavaScript (ES6+)**
+### Changing Profile Information
 
+1. Edit the `index.html` file to update personal information, projects, skills, etc.
+2. Replace images in the `assets/images` directory with your own
+3. Update links to your social media profiles and GitHub repositories
 
----
+### Styling
 
-## 📄 How to Use
+1. Modify the `styles/main.css` file to change colors, fonts, spacing, etc.
+2. Custom color scheme can be updated in the `:root` section of the CSS file
 
-1. Clone this repo:
+### Adding Projects
 
-```bash
-git clone https://github.com/vedsaxena6987/E-Folio.git
-cd E-Folio
-```
+1. Duplicate a project card in the projects section of `index.html`
+2. Update project name, description, tags, and links
+3. Add project image to `assets/images` directory and update the image path
 
-2. Open `index.html` in any modern browser to view the site locally:
+## Browser Support
 
-```bash
-open index.html   # macOS
-# or
-start index.html  # Windows
-```
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+- Opera (latest)
 
-3. (Optional) Host the project using GitHub Pages or Netlify.
+## License
 
----
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 💻 Made with ♥️ by **Vedant Saxena**
+## Contact
 
-![Programmer GIF](https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif)
+Vedant Saxena - [6987vedsaxena@gmail.com](mailto:6987vedsaxena@gmail.com)
+
+Project Link: [https://github.com/vedsaxena6987/E-Folio](https://github.com/vedsaxena6987/E-Folio)
+
+## Acknowledgements
+
+- Font Awesome for icons
+- Google Fonts for typography
+- Microsoft Office Online Viewer for presentation display
+- Various open-source libraries and tools
