@@ -242,6 +242,11 @@ img {
   transition: var(--transition);
 }
 
+video {
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
 .profile-img:hover {
   transform: scale(1.05);
 }
